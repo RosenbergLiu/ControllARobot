@@ -1,3 +1,3 @@
 # ControllARobot
 
-To launch the game. Click [Live Demo](https://johnDoe.github.io/my-website)
+To launch the game, click [Live Demo](https://rosenbergliu.github.io/MoveAndTurn/)
