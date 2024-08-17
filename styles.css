@@ -1,0 +1,61 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    grid-template-rows: repeat(5, 60px);
+    gap: 5px;
+    margin: 20px auto;
+}
+
+#grid-view {
+    display: flex; 
+    justify-content: center;
+}
+
+.cell {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.robot {
+    background-color: #ffcc00;
+}
+
+#controls button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(225 90 29);
+    opacity: 1;
+    border-radius: .25rem;
+    color: rgb(255 255 255);
+    box-shadow: 0 27px 15px -30px rgba(0, 0, 0, .3), 0px 11px 9px -10px rgba(0, 0, 0, .5);
+    font-size: .8571428571428571rem;
+    line-height: 1.25rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: inline-flex;
+    font-family: GTUltra,Lato,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Sans SC,Noto Sans TC,ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+    font-weight: 800;
+    letter-spacing: .15em;
+}
+
+.direction-arrow {
+    width: 30px;
+    height: 30px;
+}
